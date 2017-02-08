@@ -9,6 +9,7 @@ INPUT  | FORVENTET OUTPUT | RESULTAT
 1,1,1  | Ligesidet trekant | Ligesidet trekant
 1,2,2  | Ligebenet trekant | Ligebenet trekant
 0,2,3  | Fejl! en trekant SKAL have 3 sider! | Fejl! en trekant SKAL have 3 sider!
+-1,2,4 | Fejl! en trekant SKAL have 3 sider! | Fejl! en trekant SKAL have 3 sider!
 s,e,d  | Exception | Exception
 
 # Triangle.class
