@@ -1,18 +1,15 @@
-
-
-package softtestex1;
-
 /**
- * 
- * @author Ismail Cam
+ * Created by ismailcam on 12/02/2017.
  */
-public class Triangle {
+public class Triangle
+{
 
     private int a;
     private int b;
     private int c;
 
-    public Triangle( int a, int b, int c )
+
+    public Triangle(int a, int b, int c)
     {
         this.a = a;
         this.b = b;
@@ -24,7 +21,7 @@ public class Triangle {
         return a;
     }
 
-    public void setA( int a )
+    public void setA(int a)
     {
         this.a = a;
     }
@@ -34,7 +31,7 @@ public class Triangle {
         return b;
     }
 
-    public void setB( int b )
+    public void setB(int b)
     {
         this.b = b;
     }
@@ -44,9 +41,18 @@ public class Triangle {
         return c;
     }
 
-    public void setC( int c )
+    public void setC(int c)
     {
         this.c = c;
     }
-    
+
+    @Override
+    public String toString()
+    {
+        return "Triangle{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
+    }
 }
