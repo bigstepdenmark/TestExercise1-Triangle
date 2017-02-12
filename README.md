@@ -5,9 +5,9 @@ Test Exercise 1 - Triangle
 
 INPUT  | FORVENTET OUTPUT | RESULTAT
 ------------- | ------------- | -------------
-1,2,3  | Vilkårlig trekant | Vilkårlig trekant
+5,4,7  | Vilkårlig trekant | Vilkårlig trekant
 1,1,1  | Ligesidet trekant | Ligesidet trekant
-1,2,2  | Ligebenet trekant | Ligebenet trekant
+3,2,2  | Ligebenet trekant | Ligebenet trekant
 0,2,3  | Ugyldig trekant | Ugyldig trekant
 -1,2,4 | Ugyldig trekant | Ugyldig trekant
 s,e,d  | Ugyldig trekant | Ugyldig trekant
